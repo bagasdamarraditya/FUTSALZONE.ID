@@ -1,0 +1,40 @@
+/* Warna latar belakang seluruh halaman */
+body {
+  background-color: #000 !important;
+}
+
+/* Kartu pemain */
+.owl-4-slider .item {
+  background-color: #c20000; /* Merah tua */
+  padding: 20px;
+  border-radius: 12px;
+  margin: 15px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Hover effect */
+.owl-4-slider .item:hover {
+  transform: scale(1.03);
+}
+
+/* Gambar pemain */
+.owl-4-slider .item img {
+  border-radius: 10px;
+  margin-bottom: 12px;
+  max-height: 300px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Teks: nama dan jumlah gol */
+.owl-4-slider .item h5,
+.owl-4-slider .item p {
+  color: #fff;
+  margin: 0;
+  padding: 4px 0;
+}
+
+.title-section .heading {
+  color: white;
+}

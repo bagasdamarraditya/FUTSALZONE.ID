@@ -1,0 +1,31 @@
+.match-slide {
+  min-height: 300px;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.team-side {
+  width: 40%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.left-side {
+  background-color: #111;
+}
+
+.right-side {
+  background-color: #e84555;
+}
+
+.score-section {
+  width: 20%;
+  background-color: #000;
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+}
